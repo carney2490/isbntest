@@ -10,7 +10,7 @@ class TestIsbn <Minitest::Test
 
     def test_that_length_returns_10
         isbn_number = 1234567890
-		assert_equal(10, check_input(isbn_number))
+		assert_equal(true, check_input(isbn_number))
     end
 
 end
